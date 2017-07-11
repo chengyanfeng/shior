@@ -8,7 +8,7 @@
 
     <!--1.配置Secrutiymanager，并配置或者引用各种参数，并加入IOC容器中 -->
     <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
-        <!--1.配置Secrutiymanager并加入IOC容器中 -->
+        <!--1.1.配置缓存 -->
         <property name="cacheManager" ref="cacheManager"/>
         <!--1.配置Secrutiymanager并加入IOC容器中 -->
         <!--<property name="authenticator" ref="authenticator"></property>-->
