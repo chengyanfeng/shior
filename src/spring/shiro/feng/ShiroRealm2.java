@@ -8,15 +8,12 @@ import org.apache.shiro.subject.PrincipalCollection;
 /**
  * Created by Administrator on 2017/7/11 0011.
  */
-public class ShiroRealm extends AuthorizingRealm {
-
-
-    //用户角色认证
+public class ShiroRealm2 extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         return null;
     }
-    //用户认证
+
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
 
